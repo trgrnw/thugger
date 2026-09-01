@@ -19,8 +19,8 @@ npm run build
 Не загружайте туда `src`, `package.json` или исходный `index.html`: браузер не
 умеет выполнять JSX напрямую и покажет ошибку MIME type для `main.jsx`.
 
-При публикации через GitHub Pages сборка запускается автоматически после push
-в ветку `main` благодаря `.github/workflows/deploy.yml`.
+После каждого push в `main` GitHub автоматически проверяет сборку и сохраняет
+готовый production-артефакт `thugger-ru-production` в разделе Actions.
 
 ## Где менять контент
 
